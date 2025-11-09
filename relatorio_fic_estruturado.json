@@ -1,0 +1,457 @@
+{
+  "titulo": "Relatório de Gestão FIC 2021-2025",
+  "gestor": "Daniel Christino",
+  "periodo": "4 anos (2021-2025)",
+  "total_realizacoes": 60,
+  "contexto_geral": {
+    "processos_administrativos": {
+      "materiais_consumo": 12000,
+      "ordens_servico": 400,
+      "compras_suprimento_fundos": 250,
+      "orcamentos_por_compra": 3
+    },
+    "orcamento_total_investimentos": 116722.84,
+    "orcamento_por_ano": {
+      "2022": 25395.17,
+      "2023": 26487.16,
+      "2024": 31784.59,
+      "2025": 33055.92
+    }
+  },
+  "topicos_principais": [
+    {
+      "id": 1,
+      "categoria": "Infraestrutura de TI e Laboratórios",
+      "problema": "150 computadores precisando modernização, custo estimado R$ 1.000.000",
+      "tempo_modernizacao_estimado": "35 anos com orçamento atual",
+      "realizacoes": [
+        {
+          "id": 1,
+          "acao": "Compra de 110 SSDs",
+          "impacto": "75% dos computadores melhorados",
+          "custo": 24084.5
+        },
+        {
+          "id": 2,
+          "acao": "Recebimento de 5 notebooks via doação",
+          "impacto": "Empréstimo para docentes e TAEs",
+          "custo": 0
+        },
+        {
+          "id": 3,
+          "acao": "Compra de 1 notebook",
+          "uso": "Concursos públicos docentes",
+          "custo": 7430.0
+        }
+      ],
+      "investimento_total": 31514.5
+    },
+    {
+      "id": 2,
+      "categoria": "Infraestrutura Física e Climatização",
+      "problema": "Dependência da SEINFRA para reformas, ar-condicionado e pinturas",
+      "realizacoes": [
+        {
+          "id": 4,
+          "acao": "Força-tarefa SEINFRA 2023",
+          "impacto": "30 ordens de serviço atrasadas resolvidas"
+        },
+        {
+          "id": 5,
+          "acao": "Força-tarefa SEINFRA 2025",
+          "status": "Prevista para final do ano"
+        },
+        {
+          "id": 6,
+          "acao": "Compra de 7 aparelhos ar-condicionado",
+          "custo": 21839.0,
+          "obs": "Alguns aguardam instalação"
+        },
+        {
+          "id": 7,
+          "acao": "Projeto reforma auditório",
+          "custo_orcado": 25000.0,
+          "status": "Não realizado por falta de recursos"
+        }
+      ],
+      "investimento_total": 21839.0
+    },
+    {
+      "id": 3,
+      "categoria": "Manutenção e Melhorias de Espaços",
+      "realizacoes": [
+        {
+          "id": 8,
+          "acao": "Compra materiais elétricos, alvenaria e eletrônicos",
+          "destino": "SEINFRA"
+        },
+        {
+          "id": 9,
+          "acao": "Materiais de limpeza e escritório",
+          "destino": "Prédio e LABICOM"
+        },
+        {
+          "id": 10,
+          "acao": "Caixa acústica moderna auditório",
+          "custo": 3610.5
+        },
+        {
+          "id": 11,
+          "acao": "Espaço convivência servidores e troca extintores"
+        },
+        {
+          "id": 12,
+          "acao": "Higienização cadeiras e piso auditório"
+        },
+        {
+          "id": 13,
+          "acao": "Máquina de café",
+          "destino": "Espaço convivência",
+          "custo": 4858.0
+        }
+      ],
+      "investimento_total": 8468.5
+    },
+    {
+      "id": 4,
+      "categoria": "Salas de Aula e Equipamentos Audiovisuais",
+      "realizacoes": [
+        {
+          "id": 13,
+          "acao": "10 quadros brancos (3m x 1,20m)",
+          "custo": 5300.0
+        },
+        {
+          "id": 14,
+          "acao": "5 projetores multimídia",
+          "custo": 22449.95
+        },
+        {
+          "id": 15,
+          "acao": "5 televisores 75 pol SMART TV",
+          "custo": 21745.0
+        },
+        {
+          "id": 16,
+          "acao": "Materiais diversos (microfones lapela, cartões memória, cabos HDMI, conversores)"
+        }
+      ],
+      "investimento_total": 49494.95
+    },
+    {
+      "id": 5,
+      "categoria": "Apoio aos Cursos de Graduação",
+      "cursos": {
+        "Geral": [
+          {
+            "id": 17,
+            "acao": "Apoio verba PROAG 2025"
+          },
+          {
+            "id": 18,
+            "acao": "Transferência Ateliê Tipográfico para FIC/UFG"
+          },
+          {
+            "id": 19,
+            "acao": "Lonas, EPIs e materiais preservação Ateliê Tipográfico"
+          }
+        ],
+        "Biblioteconomia": [
+          {
+            "id": 20,
+            "acao": "Reforma sofás LIBRIS"
+          },
+          {
+            "id": 24,
+            "acao": "Chaves para murais"
+          }
+        ],
+        "Jornalismo": [
+          {
+            "id": 21,
+            "acao": "Windbanners Espaço das Profissões"
+          },
+          {
+            "id": 22,
+            "acao": "Materiais aulas audiovisual e campo"
+          },
+          {
+            "id": 23,
+            "acao": "Reforma armários"
+          },
+          {
+            "id": 24,
+            "acao": "Chaves para murais"
+          }
+        ],
+        "Relações Públicas": [
+          {
+            "id": 25,
+            "acao": "14 livros, cartões memória, mesa PcD",
+            "contexto": "Avaliação MEC nota 5"
+          },
+          {
+            "id": 26,
+            "acao": "Materiais Espaço Profissões e Semana RP"
+          },
+          {
+            "id": 27,
+            "acao": "10 cadeiras"
+          }
+        ],
+        "Publicidade e Propaganda": [
+          {
+            "id": 28,
+            "acao": "Materiais Espaço das Profissões"
+          },
+          {
+            "id": 29,
+            "acao": "Materiais consumo (HDMI, cartões memória)"
+          }
+        ],
+        "Gestão da Informação": [
+          {
+            "id": 30,
+            "acao": "Cadeados para salas"
+          },
+          {
+            "id": 31,
+            "acao": "Materiais construção e divisórias reestruturação coordenação",
+            "status": "Em andamento"
+          }
+        ]
+      }
+    },
+    {
+      "id": 6,
+      "categoria": "Programas de Pós-Graduação",
+      "realizacoes": [
+        {
+          "id": 32,
+          "programa": "PPGCI",
+          "acao": "Computador e materiais construção espaço físico",
+          "status": "Adquiridos"
+        },
+        {
+          "id": 33,
+          "programa": "PPGCOM",
+          "acao": "Quadro branco, ar-condicionado sala servidoras, fonte notebook"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "categoria": "Comunica Estúdio",
+      "realizacoes": [
+        {
+          "id": 34,
+          "acao": "2 filmadoras PXW-Z280 4K HDR",
+          "custo_unitario": 14800.0,
+          "custo_total": 29600.0
+        },
+        {
+          "id": 35,
+          "acao": "Recuperação 4 filmadoras inoperantes",
+          "patrimonios": [
+            663356,
+            663365,
+            663366,
+            663406
+          ]
+        },
+        {
+          "id": 36,
+          "acao": "2 bolsas transporte filmadoras"
+        },
+        {
+          "id": 37,
+          "acao": "2 baterias novas filmadoras"
+        },
+        {
+          "id": 38,
+          "acao": "2 câmeras vídeo",
+          "patrimonios": [
+            743375,
+            743386
+          ]
+        },
+        {
+          "id": 39,
+          "acao": "2 processadores áudio estúdio",
+          "patrimonios": [
+            627722,
+            627723
+          ]
+        },
+        {
+          "id": 40,
+          "acao": "Materiais pós-pandemia 2022 (microfone, adaptadores, cabos XLR e HDMI, luminária mesa, ferro solda)"
+        }
+      ],
+      "investimento_total": 29600.0
+    },
+    {
+      "id": 8,
+      "categoria": "Estúdio de Fotografia",
+      "realizacoes": [
+        {
+          "id": 41,
+          "ano": 2023,
+          "acao": "Refletores, concentradores luz, lâmpadas, adaptadores",
+          "custo": 4289.0
+        },
+        {
+          "id": 42,
+          "ano": 2025,
+          "acao": "Rádio flash, filtros, tocas difusoras, sobrinhas, difusores",
+          "custo_orcado": 2000.0,
+          "status": "Em processo"
+        }
+      ],
+      "investimento_total": 4289.0
+    },
+    {
+      "id": 9,
+      "categoria": "Setor de TI",
+      "realizacoes": [
+        {
+          "id": 43,
+          "acao": "Novo código vaga técnico TI"
+        },
+        {
+          "id": 44,
+          "acao": "Materiais pós-pandemia 2022 e anos subsequentes (cabos HDMI, adaptadores, ferramentas)"
+        },
+        {
+          "id": 45,
+          "acao": "Ar-condicionado 18.000 BTUS sala TI"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "categoria": "Valorização dos TAEs",
+      "realizacoes": [
+        {
+          "id": 46,
+          "acao": "Apoio turnos contínuos",
+          "setores": [
+            "Secretaria Geral (2024)",
+            "Comunica Estúdio (processo)",
+            "TI (processo)"
+          ]
+        },
+        {
+          "id": 47,
+          "acao": "Adesão PGD",
+          "status": "Aprovado Conselho Diretor"
+        },
+        {
+          "id": 48,
+          "acao": "Flexibilidade horário",
+          "setores": [
+            "LIBRIS",
+            "ASCOM/FIC",
+            "PPGCOM"
+          ]
+        },
+        {
+          "id": 49,
+          "acao": "Recuperação código vaga técnico audiovisual"
+        },
+        {
+          "id": 50,
+          "acao": "Contratação bolsistas turnos matutino e vespertino",
+          "objetivo": "Redução sobrecarga Secretaria Administrativa"
+        },
+        {
+          "id": 51,
+          "acao": "Priorização remanejamento servidores condições especiais"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "categoria": "Imagem Institucional",
+      "realizacoes": [
+        {
+          "id": 52,
+          "acao": "Projeto Sinalização e Revitalização prédio FIC",
+          "status": "Aguardando UFG conforme Plano Diretor"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "categoria": "Captação de Recursos Externos",
+      "problema": "Orçamento UFG insuficiente, necessidade outras fontes financiamento",
+      "realizacoes": [
+        {
+          "id": 53,
+          "projeto": "DATA UFG",
+          "status": "Instalado no LABICOM"
+        },
+        {
+          "id": 54,
+          "projeto": "SGM",
+          "status": "Implementado"
+        },
+        {
+          "id": 55,
+          "projeto": "Parceria FIC-SANEAGO",
+          "status": "Em implementação"
+        },
+        {
+          "id": 56,
+          "projeto": "Comunicação Integrada UFG",
+          "status": "Em elaboração"
+        },
+        {
+          "id": 57,
+          "projeto": "Moderniza FIC (Fundação RTVE/UFG)",
+          "status": "Em elaboração"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "categoria": "Apoio aos Centros Acadêmicos",
+      "realizacoes": [
+        {
+          "id": 58,
+          "acao": "Compra forno micro-ondas 2022",
+          "obs": "Consertado rapidamente em 2025"
+        },
+        {
+          "id": 59,
+          "acao": "Diálogo aberto e contínuo",
+          "participacao": "Convocação reuniões pré-Conselho Diretor"
+        },
+        {
+          "id": 60,
+          "acao": "Priorização instalação ar-condicionado sala CA"
+        }
+      ]
+    }
+  ],
+  "propostas_proxima_gestao": {
+    "para_taes": [
+      "Ampliação incentivo PGD e turnos contínuos",
+      "Estímulo equipes autogerenciáveis",
+      "Gestão democrática com autonomia e confiança",
+      "Convite participação projetos pesquisa com bolsas"
+    ],
+    "estrategias_gerais": [
+      "Buscar mais fontes financiamento externo",
+      "Expandir parcerias institucionais",
+      "Modelo gestão menos centralizador e burocrático",
+      "Manter diálogo aberto com comunidade acadêmica"
+    ]
+  },
+  "indicadores_financeiros": {
+    "total_investimentos_identificados": 170206.45,
+    "custo_modernizacao_completa_labs": 1000000.0,
+    "deficit_orcamentario": 883277.16,
+    "percentual_cobertura": 11.67
+  }
+}

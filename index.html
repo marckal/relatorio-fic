@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relatório de Gestão FIC 2021-2025 - Daniel Christino</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Sidebar Navigation -->
+        <nav class="sidebar" id="sidebar">
+            <div class="sidebar-header">
+                <h2>FIC/UFG</h2>
+                <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#" data-page="overview" class="nav-link active">📊 Visão Geral</a></li>
+                <li><a href="#" data-page="investments" class="nav-link">💰 Investimentos por Categoria</a></li>
+                <li><a href="#" data-page="budget" class="nav-link">📈 Orçamento Anual</a></li>
+                <li><a href="#" data-page="accomplishments" class="nav-link">✅ Realizações Detalhadas</a></li>
+                <li><a href="#" data-page="projects" class="nav-link">🎯 Projetos de Captação</a></li>
+                <li><a href="#" data-page="proposals" class="nav-link">🚀 Propostas Futuras</a></li>
+                <li><a href="#" data-page="feedback" class="nav-link">💬 Feedback da Comunidade</a></li>
+            </ul>
+        </nav>
+
+        <!-- Main Content Area -->
+        <main class="main-content">
+            <header class="top-bar">
+                <button class="menu-toggle-mobile" id="menuToggleMobile" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <h1 id="pageTitle">Relatório de Gestão FIC 2021-2025</h1>
+            </header>
+
+            <div class="content-wrapper" id="contentWrapper">
+                <!-- Content pages will be dynamically loaded here -->
+            </div>
+        </main>
+    </div>
+
+    <!-- Modal for Export -->
+    <div class="modal" id="exportModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Exportar Relatório</h3>
+                <button class="modal-close" id="closeModal">&times;</button>
+            </div>
+            <div class="modal-body">
+                <p>Selecione o formato de exportação:</p>
+                <div class="export-options">
+                    <button class="btn btn--primary" id="exportPDF">📄 Exportar como PDF</button>
+                    <button class="btn btn--secondary" id="exportText">📝 Copiar Texto Formatado</button>
+                </div>
+                <div id="exportResult" class="export-result"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
